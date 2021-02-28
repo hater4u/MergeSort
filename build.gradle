@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+group 'nsu.drozdov'
+version '1.0-SNAPSHOT'
+
+application {
+    mainClassName = 'nsu.drozdov.Main'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+}
